@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+platform :ios, ’9.0’
+
+target 'FoodApp' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FoodApp
+pod 'Backendless'
+pod 'Google/SignIn'
+pod 'SDWebImage', '~>3.8’
+pod 'UIActivityIndicator-for-SDWebImage', :git => 'https://github.com/useeless37/UIActivityIndicator-for-SDWebImage.git'
+pod ‘iCarousel’
+pod 'MBProgressHUD', '~> 1.0.0'
+pod 'CVCalendar', '~> 1.4.1'
+pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
+pod 'DCAnimationKit’
+pod 'DLRadioButton', '~> 1.4'
+pod 'SwiftLocation', '>= 1.0.6'
+pod "DGRunkeeperSwitch", "~> 1.1.4”
+pod 'IQKeyboardManagerSwift'
+pod 'PopupDialog', '~> 0.5'
+pod "FlexibleSteppedProgressBar"
+pod 'Segmentio', '~> 2.1'
+pod ‘Cosmos’, ‘~> 8.0’
+end
